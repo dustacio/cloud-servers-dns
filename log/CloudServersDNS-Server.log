@@ -1,0 +1,443 @@
+=== Log Marked @ 2014-08-25 23:36:11 -0500 [62700] ===
+=== Daemon Exception Backtrace @ 2014-08-25 23:36:11 -0500 ===
+NameError: undefined local variable or method `conf' for #<CloudServersDNS::Server:0x007feb0281f908>
+./bin/cloud-servers-dns:26:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:37:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:36:11 -0500 ===
+=== Log Marked @ 2014-08-25 23:37:51 -0500 [63989] ===
+=== Daemon Exception Backtrace @ 2014-08-25 23:37:51 -0500 ===
+NameError: undefined local variable or method `options' for #<CloudServersDNS::Server:0x007f8894cf69c0>
+./bin/cloud-servers-dns:27:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:38:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:37:51 -0500 ===
+=== Log Marked @ 2014-08-25 23:39:36 -0500 [65916] ===
+=== Daemon Exception Backtrace @ 2014-08-25 23:39:36 -0500 ===
+NameError: undefined local variable or method `options' for #<CloudServersDNS::Server:0x007fc559eb01b0>
+./bin/cloud-servers-dns:27:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:38:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:39:36 -0500 ===
+=== Log Marked @ 2014-08-25 23:44:34 -0500 [69138] ===
+=== Daemon Exception Backtrace @ 2014-08-25 23:44:34 -0500 ===
+NoMethodError: undefined method `listen' for nil:NilClass
+./bin/cloud-servers-dns:27:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:38:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:44:34 -0500 ===
+=== Log Marked @ 2014-08-25 23:45:35 -0500 [69786] ===
+I, [2014-08-25T23:45:35.662370 #69788]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:45:35.662833 #69788]  INFO -- : Listening on udp:0.0.0.0:53
+=== Daemon Exception Backtrace @ 2014-08-25 23:45:35 -0500 ===
+RuntimeError: no datagram socket
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_udp_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_datagram_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:144:in `block in run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `each'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:38:in `block in run_server'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:33:in `run_server'
+./bin/cloud-servers-dns:27:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:38:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:45:35 -0500 ===
+=== Log Marked @ 2014-08-25 23:46:48 -0500 [70435] ===
+I, [2014-08-25T23:46:48.378708 #70437]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:46:48.379099 #70437]  INFO -- : Listening on udp:0.0.0.0:53
+=== Daemon Exception Backtrace @ 2014-08-25 23:46:48 -0500 ===
+RuntimeError: no datagram socket
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_udp_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_datagram_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:144:in `block in run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `each'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:38:in `block in run_server'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:33:in `run_server'
+./bin/cloud-servers-dns:27:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:38:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:46:48 -0500 ===
+=== Log Marked @ 2014-08-25 23:47:20 -0500 [71080] ===
+I, [2014-08-25T23:47:20.020713 #71082]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:47:20.021102 #71082]  INFO -- : Listening on udp:0.0.0.0:53
+=== Daemon Exception Backtrace @ 2014-08-25 23:47:20 -0500 ===
+RuntimeError: no datagram socket
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_udp_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_datagram_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:144:in `block in run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `each'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:38:in `block in run_server'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:33:in `run_server'
+./bin/cloud-servers-dns:27:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:38:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:47:20 -0500 ===
+=== Log Marked @ 2014-08-25 23:48:03 -0500 [71725] ===
+I, [2014-08-25T23:48:03.441927 #71727]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:48:03.442349 #71727]  INFO -- : Listening on udp:0.0.0.0:53
+=== Daemon Exception Backtrace @ 2014-08-25 23:48:03 -0500 ===
+RuntimeError: no datagram socket
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_udp_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_datagram_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:144:in `block in run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `each'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:38:in `block in run_server'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:33:in `run_server'
+./bin/cloud-servers-dns:30:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:41:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:48:03 -0500 ===
+=== Log Marked @ 2014-08-25 23:49:47 -0500 [73014] ===
+I, [2014-08-25T23:49:47.812725 #73016]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:49:47.813119 #73016]  INFO -- : Listening on udp:0.0.0.0:53
+=== Daemon Exception Backtrace @ 2014-08-25 23:49:47 -0500 ===
+RuntimeError: no datagram socket
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_udp_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:859:in `open_datagram_socket'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:144:in `block in run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `each'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:124:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:38:in `block in run_server'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns.rb:33:in `run_server'
+./bin/cloud-servers-dns:30:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:41:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:49:47 -0500 ===
+=== Log Marked @ 2014-08-25 23:53:32 -0500 [74318] ===
+=== Daemon Exception Backtrace @ 2014-08-25 23:53:32 -0500 ===
+NameError: undefined local variable or method `configuration' for #<CloudServersDNS::Server:0x007ff6b9a91e80>
+./bin/cloud-servers-dns:29:in `startup'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:157:in `run'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:84:in `block in spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `fork'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:67:in `spawn'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:113:in `start'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon/controller.rb:44:in `daemonize'
+/Users/dustacio/.rvm/gems/ruby-2.1.2/gems/process-daemon-0.5.5/lib/process/daemon.rb:176:in `daemonize'
+./bin/cloud-servers-dns:40:in `<main>'
+=== Daemon Crashed ===
+=== Daemon Stopping @ 2014-08-25 23:53:32 -0500 ===
+=== Log Marked @ 2014-08-25 23:54:03 -0500 [74962] ===
+I, [2014-08-25T23:54:04.000767 #74964]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:54:04.001185 #74964]  INFO -- : Listening on tcp:0.0.0.0:5300
+I, [2014-08-25T23:54:04.002029 #74964]  INFO -- : Listening on udp:0.0.0.0:5300
+D, [2014-08-25T23:54:34.161555 #74964] DEBUG -- : Receiving incoming query (40 bytes)...
+D, [2014-08-25T23:54:34.163718 #74964] DEBUG -- : [42496] Processing question test.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-25T23:54:34.163936 #74964] DEBUG -- : Searching for test.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-25T23:54:34.171021 #74964] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-25T23:54:34.171335 #74964] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+E, [2014-08-25T23:54:34.171499 #74964] ERROR -- : [42496] Exception thrown while processing test.abilityscreen.com Resolv::DNS::Resource::IN::A!
+E, [2014-08-25T23:54:34.171636 #74964] ERROR -- : NoMethodError: undefined method `index' for #<Resolv::DNS::Name: test.abilityscreen.com.>
+E, [2014-08-25T23:54:34.171775 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:59:in `block in host_from_wildcard'
+E, [2014-08-25T23:54:34.171851 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:57:in `each'
+E, [2014-08-25T23:54:34.171925 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:57:in `host_from_wildcard'
+E, [2014-08-25T23:54:34.171996 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:80:in `lookup'
+E, [2014-08-25T23:54:34.172072 #74964] ERROR -- : ./bin/cloud-servers-dns:31:in `block (2 levels) in startup'
+E, [2014-08-25T23:54:34.172142 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `[]'
+E, [2014-08-25T23:54:34.172211 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `call'
+E, [2014-08-25T23:54:34.172283 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:300:in `block (2 levels) in process'
+E, [2014-08-25T23:54:34.172353 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `catch'
+E, [2014-08-25T23:54:34.172422 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `block in process'
+E, [2014-08-25T23:54:34.172493 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `each'
+E, [2014-08-25T23:54:34.172566 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `process'
+E, [2014-08-25T23:54:34.172638 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/transaction.rb:214:in `process'
+E, [2014-08-25T23:54:34.172708 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:86:in `block (2 levels) in process_query'
+E, [2014-08-25T23:54:34.172777 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `each'
+E, [2014-08-25T23:54:34.172846 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `block in process_query'
+D, [2014-08-25T23:54:34.172965 #74964] DEBUG -- : Writing response to client (12 bytes) via UDP...
+D, [2014-08-25T23:54:34.173176 #74964] DEBUG -- : [42496] Time to process request: 0.009686s
+D, [2014-08-25T23:54:54.249642 #74964] DEBUG -- : Receiving incoming query (46 bytes)...
+D, [2014-08-25T23:54:54.250423 #74964] DEBUG -- : [18829] Processing question louis-test.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-25T23:54:54.250601 #74964] DEBUG -- : Searching for louis-test.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-25T23:54:54.250754 #74964] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-25T23:54:54.250912 #74964] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+E, [2014-08-25T23:54:54.251302 #74964] ERROR -- : [18829] Exception thrown while processing louis-test.abilityscreen.com Resolv::DNS::Resource::IN::A!
+E, [2014-08-25T23:54:54.251449 #74964] ERROR -- : NoMethodError: undefined method `index' for #<Resolv::DNS::Name: louis-test.abilityscreen.com.>
+E, [2014-08-25T23:54:54.251631 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:59:in `block in host_from_wildcard'
+E, [2014-08-25T23:54:54.251750 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:57:in `each'
+E, [2014-08-25T23:54:54.251864 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:57:in `host_from_wildcard'
+E, [2014-08-25T23:54:54.251984 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:80:in `lookup'
+E, [2014-08-25T23:54:54.252097 #74964] ERROR -- : ./bin/cloud-servers-dns:31:in `block (2 levels) in startup'
+E, [2014-08-25T23:54:54.252216 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `[]'
+E, [2014-08-25T23:54:54.252332 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `call'
+E, [2014-08-25T23:54:54.252446 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:300:in `block (2 levels) in process'
+E, [2014-08-25T23:54:54.252558 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `catch'
+E, [2014-08-25T23:54:54.252672 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `block in process'
+E, [2014-08-25T23:54:54.252788 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `each'
+E, [2014-08-25T23:54:54.252903 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `process'
+E, [2014-08-25T23:54:54.253026 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/transaction.rb:214:in `process'
+E, [2014-08-25T23:54:54.253121 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:86:in `block (2 levels) in process_query'
+E, [2014-08-25T23:54:54.253219 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `each'
+E, [2014-08-25T23:54:54.253319 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `block in process_query'
+D, [2014-08-25T23:54:54.253438 #74964] DEBUG -- : Writing response to client (12 bytes) via UDP...
+D, [2014-08-25T23:54:54.253563 #74964] DEBUG -- : [18829] Time to process request: 0.003544s
+D, [2014-08-25T23:57:23.895534 #74964] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-25T23:57:23.895983 #74964] DEBUG -- : [49086] Processing question ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-25T23:57:23.896127 #74964] DEBUG -- : Searching for ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-25T23:57:23.896272 #74964] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-25T23:57:23.896402 #74964] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+E, [2014-08-25T23:57:23.896560 #74964] ERROR -- : [49086] Exception thrown while processing ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A!
+E, [2014-08-25T23:57:23.896706 #74964] ERROR -- : NoMethodError: undefined method `index' for #<Resolv::DNS::Name: ability-screen-016714.abilityscreen.com.>
+E, [2014-08-25T23:57:23.896858 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:59:in `block in host_from_wildcard'
+E, [2014-08-25T23:57:23.896960 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:57:in `each'
+E, [2014-08-25T23:57:23.897062 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:57:in `host_from_wildcard'
+E, [2014-08-25T23:57:23.897162 #74964] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:80:in `lookup'
+E, [2014-08-25T23:57:23.897261 #74964] ERROR -- : ./bin/cloud-servers-dns:31:in `block (2 levels) in startup'
+E, [2014-08-25T23:57:23.897355 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `[]'
+E, [2014-08-25T23:57:23.897456 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `call'
+E, [2014-08-25T23:57:23.897557 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:300:in `block (2 levels) in process'
+E, [2014-08-25T23:57:23.897657 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `catch'
+E, [2014-08-25T23:57:23.897755 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `block in process'
+E, [2014-08-25T23:57:23.897863 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `each'
+E, [2014-08-25T23:57:23.897958 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `process'
+E, [2014-08-25T23:57:23.898055 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/transaction.rb:214:in `process'
+E, [2014-08-25T23:57:23.898153 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:86:in `block (2 levels) in process_query'
+E, [2014-08-25T23:57:23.898252 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `each'
+E, [2014-08-25T23:57:23.898351 #74964] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `block in process_query'
+D, [2014-08-25T23:57:23.898483 #74964] DEBUG -- : Writing response to client (12 bytes) via UDP...
+D, [2014-08-25T23:57:23.898612 #74964] DEBUG -- : [49086] Time to process request: 0.002746s
+=== Daemon Stopping @ 2014-08-25 23:58:15 -0500 ===
+=== Log Marked @ 2014-08-25 23:58:54 -0500 [75719] ===
+I, [2014-08-25T23:58:54.414686 #75722]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-25T23:58:54.415074 #75722]  INFO -- : Listening on tcp:0.0.0.0:5300
+I, [2014-08-25T23:58:54.415513 #75722]  INFO -- : Listening on udp:0.0.0.0:5300
+D, [2014-08-25T23:59:03.972444 #75722] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-25T23:59:03.974880 #75722] DEBUG -- : [9903] Processing question ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-25T23:59:03.975546 #75722] DEBUG -- : Searching for ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-25T23:59:03.983879 #75722] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-25T23:59:03.984295 #75722] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+E, [2014-08-25T23:59:03.985036 #75722] ERROR -- : [9903] Exception thrown while processing ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A!
+E, [2014-08-25T23:59:03.985187 #75722] ERROR -- : NoMethodError: undefined method `<' for nil:NilClass
+E, [2014-08-25T23:59:03.985333 #75722] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:38:in `cached_results'
+E, [2014-08-25T23:59:03.985418 #75722] ERROR -- : /Users/dustacio/Code/cloud_servers_dns/lib/cloud_servers_dns/datasource.rb:80:in `lookup'
+E, [2014-08-25T23:59:03.985491 #75722] ERROR -- : ./bin/cloud-servers-dns:31:in `block (2 levels) in startup'
+E, [2014-08-25T23:59:03.985557 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `[]'
+E, [2014-08-25T23:59:03.985626 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:193:in `call'
+E, [2014-08-25T23:59:03.985696 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:300:in `block (2 levels) in process'
+E, [2014-08-25T23:59:03.985763 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `catch'
+E, [2014-08-25T23:59:03.985829 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:298:in `block in process'
+E, [2014-08-25T23:59:03.985898 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `each'
+E, [2014-08-25T23:59:03.985974 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:295:in `process'
+E, [2014-08-25T23:59:03.986042 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/transaction.rb:214:in `process'
+E, [2014-08-25T23:59:03.986115 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:86:in `block (2 levels) in process_query'
+E, [2014-08-25T23:59:03.986193 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `each'
+E, [2014-08-25T23:59:03.986267 #75722] ERROR -- : /Users/dustacio/.rvm/gems/ruby-2.1.2/gems/rubydns-0.8.5/lib/rubydns/server.rb:81:in `block in process_query'
+D, [2014-08-25T23:59:03.986377 #75722] DEBUG -- : Writing response to client (12 bytes) via UDP...
+D, [2014-08-25T23:59:03.986537 #75722] DEBUG -- : [9903] Time to process request: 0.012166s
+=== Daemon Stopping @ 2014-08-26 00:01:35 -0500 ===
+=== Log Marked @ 2014-08-26 00:01:35 -0500 [76388] ===
+I, [2014-08-26T00:01:35.705282 #76390]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-26T00:01:35.705768 #76390]  INFO -- : Listening on tcp:0.0.0.0:5300
+I, [2014-08-26T00:01:35.706362 #76390]  INFO -- : Listening on udp:0.0.0.0:5300
+D, [2014-08-26T00:01:47.545929 #76390] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:01:47.547695 #76390] DEBUG -- : [28158] Processing question ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:01:47.547890 #76390] DEBUG -- : Searching for ability-screen-016714.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:01:47.554680 #76390] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:01:47.555029 #76390] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+I, [2014-08-26T00:01:49.621986 #76390]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:01:49.622313 #76390]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007fc29be1e8c0 @address=#<Resolv::IPv4 50.56.174.217>>
+D, [2014-08-26T00:01:49.622437 #76390] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007fc29be1e8c0 @address=#<Resolv::IPv4 50.56.174.217>> 1 1
+D, [2014-08-26T00:01:49.622634 #76390] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:01:49.622790 #76390] DEBUG -- : [28158] Time to process request: 2.075369s
+D, [2014-08-26T00:02:13.367432 #76390] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:02:13.367820 #76390] DEBUG -- : [46780] Processing question ability-screen-017501.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:02:13.367975 #76390] DEBUG -- : Searching for ability-screen-017501.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:02:13.368108 #76390] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:02:13.368265 #76390] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+I, [2014-08-26T00:02:18.226448 #76390]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:02:18.226666 #76390]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007fc29d1134f8 @address=#<Resolv::IPv4 50.56.176.208>>
+D, [2014-08-26T00:02:18.226797 #76390] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007fc29d1134f8 @address=#<Resolv::IPv4 50.56.176.208>> 1 1
+D, [2014-08-26T00:02:18.226979 #76390] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:02:18.227097 #76390] DEBUG -- : [46780] Time to process request: 4.859328s
+D, [2014-08-26T00:02:51.312177 #76390] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:02:51.312541 #76390] DEBUG -- : [3556] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:02:51.312699 #76390] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:02:51.312840 #76390] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:02:51.312983 #76390] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+I, [2014-08-26T00:02:53.351999 #76390]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:02:53.352193 #76390]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007fc29bf7fb88 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:02:53.352306 #76390] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007fc29bf7fb88 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:02:53.352462 #76390] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:02:53.352563 #76390] DEBUG -- : [3556] Time to process request: 2.04005s
+=== Daemon Stopping @ 2014-08-26 00:05:49 -0500 ===
+=== Log Marked @ 2014-08-26 00:05:49 -0500 [77783] ===
+I, [2014-08-26T00:05:49.352493 #77785]  INFO -- : Starting RubyDNS server (v0.8.5)...
+I, [2014-08-26T00:05:49.352994 #77785]  INFO -- : Listening on tcp:0.0.0.0:5300
+I, [2014-08-26T00:05:49.353478 #77785]  INFO -- : Listening on udp:0.0.0.0:5300
+D, [2014-08-26T00:06:15.042420 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:15.044683 #77785] DEBUG -- : [59694] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:15.044922 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:15.052731 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:15.053044 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:15.053597 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:15.054037 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8dd9d24b0 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:15.054178 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8dd9d24b0 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:15.054414 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:15.054566 #77785] DEBUG -- : [59694] Time to process request: 0.010099s
+D, [2014-08-26T00:06:20.023777 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:20.024181 #77785] DEBUG -- : [41721] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:20.024344 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:20.024491 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:20.024632 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:20.024841 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:20.025015 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8dd9d9968 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:20.025187 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8dd9d9968 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:20.025416 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:20.025572 #77785] DEBUG -- : [41721] Time to process request: 0.001447s
+D, [2014-08-26T00:06:35.929526 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:35.929932 #77785] DEBUG -- : [19455] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:35.930088 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:35.930227 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:35.930371 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:35.930559 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:35.930728 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8dd9e0808 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:35.930897 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8dd9e0808 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:35.931135 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:35.931284 #77785] DEBUG -- : [19455] Time to process request: 0.00142s
+D, [2014-08-26T00:06:38.911907 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:39.000624 #77785] DEBUG -- : [62242] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:39.000812 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:39.000897 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:39.000983 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:39.001097 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:39.001198 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8d8830120 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:39.001291 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8d8830120 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:39.001427 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:39.001547 #77785] DEBUG -- : [62242] Time to process request: 0.089287s
+D, [2014-08-26T00:06:42.360562 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:42.360961 #77785] DEBUG -- : [45556] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:42.361114 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:42.361265 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:42.361406 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:42.361588 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:42.361755 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8d8881cc8 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:42.361938 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8d8881cc8 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:42.362161 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:42.362310 #77785] DEBUG -- : [45556] Time to process request: 0.001378s
+D, [2014-08-26T00:06:45.272952 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:45.273315 #77785] DEBUG -- : [51835] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:45.273468 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:45.273610 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:45.273751 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:45.273934 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:45.274102 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8d8899580 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:45.274263 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8d8899580 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:45.274485 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:45.274635 #77785] DEBUG -- : [51835] Time to process request: 0.001347s
+D, [2014-08-26T00:06:53.872509 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:06:53.872862 #77785] DEBUG -- : [3917] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:06:53.872995 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:06:53.873114 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:06:53.873235 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:06:53.873394 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:06:53.873540 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8d88ba8c0 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:06:53.873676 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8d88ba8c0 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:06:53.873869 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:06:53.873998 #77785] DEBUG -- : [3917] Time to process request: 0.001159s
+D, [2014-08-26T00:07:00.703199 #77785] DEBUG -- : Receiving incoming query (57 bytes)...
+D, [2014-08-26T00:07:00.703585 #77785] DEBUG -- : [16486] Processing question ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A...
+D, [2014-08-26T00:07:00.703742 #77785] DEBUG -- : Searching for ability-screen-017500.abilityscreen.com Resolv::DNS::Resource::IN::A
+D, [2014-08-26T00:07:00.703881 #77785] DEBUG -- : Checking rule [//, [Resolv::DNS::Resource::IN::A, Resolv::DNS::Resource::IN::CNAME]]...
+D, [2014-08-26T00:07:00.704021 #77785] DEBUG -- : Regexp pattern matched with #<MatchData "">.
+HAVE RESULTS FOR ability-screen-017500
+RESULTS IN WINDOW of TTL
+I, [2014-08-26T00:07:00.704203 #77785]  INFO -- : Resource class: Resolv::DNS::Resource::IN::A
+I, [2014-08-26T00:07:00.704406 #77785]  INFO -- : Resource: #<Resolv::DNS::Resource::IN::A:0x007ff8d902f448 @address=#<Resolv::IPv4 50.56.176.143>>
+D, [2014-08-26T00:07:00.704542 #77785] DEBUG -- : add_answer: #<Resolv::DNS::Resource::IN::A:0x007ff8d902f448 @address=#<Resolv::IPv4 50.56.176.143>> 1 1
+D, [2014-08-26T00:07:00.704741 #77785] DEBUG -- : Writing response to client (73 bytes) via UDP...
+D, [2014-08-26T00:07:00.704869 #77785] DEBUG -- : [16486] Time to process request: 0.001336s

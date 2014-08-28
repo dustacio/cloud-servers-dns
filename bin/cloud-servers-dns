@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+require_relative '../lib/cloud_servers_dns'
+
+# Given the name of a server in your Rackspace Cloud Servers account
+# return the public ipv4 address
+
+class CloudServersDNS::Server < Process::Daemon
+  ::OptionParser.new do |opts|
+    opts.banner = "Usage: $0 --config config.yml"
+
+    opts.on('-c', '--config CONFIGFILE', 'YAML Config File') do |c|
+      puts "Using config file from #{c}"
+      @@configuration = OpenStruct.new(YAML.load(File.open(c)))
+    end
+  end.parse!  
+
+  def self.configuration
+    @@configuration
+  end
+
+
+  $R = Resolv::DNS.new
+  Name = Resolv::DNS::Name
+  IN = Resolv::DNS::Resource::IN
+
+  $datasource = CloudServersDNS::Datasource.new(configuration)
+
+  def startup
+    RubyDNS::run_server(listen: self.class.configuration.listen) do
+      match(//, [IN::A, IN::CNAME]) do |transaction|
+        if response = $datasource.lookup(transaction.question)
+          transaction.respond!(response)
+        else
+          transaction.fail!(:NXDomain)
+        end
+      end
+    end
+  end
+end
+CloudServersDNS::Server.daemonize

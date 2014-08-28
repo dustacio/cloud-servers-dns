@@ -1,0 +1,4 @@
+# ignore config files
+config/*.yml
+run/*
+log/*.yml
