@@ -1,0 +1,27 @@
+---
+:working_directory: '.'
+:log_directory: '/var/log/cloud-servers-dns'
+:runtime_directory: '/var/run/cloud-servers-dns'
+
+:listen:
+  - 
+    - :tcp
+    - "0.0.0.0"
+    - 53
+  - 
+    - :udp
+    - "0.0.0.0"
+    - 53
+
+:ttl: 300 # seconds
+
+:domains:
+  - example1.com
+  - example2.net
+
+:connection: 
+  :provider: 'Rackspace'
+  :version: :v2
+  :rackspace_username: 'YOUR USERNAME'
+  :rackspace_api_key: 'YOUR API KEY'
+  :rackspace_region: 'YOUR PREFERED REGION'

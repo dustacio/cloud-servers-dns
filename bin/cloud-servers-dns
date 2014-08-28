@@ -18,12 +18,16 @@ class CloudServersDNS::Server < Process::Daemon
     @@configuration
   end
 
+  def configuration
+    self.class.configuration
+  end
+
   def working_directory
     configuration.working_directory || super
   end
 
   def log_directory
-    configuration.log_direcotry || super
+    configuration.log_directory || super
   end
 
   def runtime_directory
@@ -37,6 +41,9 @@ class CloudServersDNS::Server < Process::Daemon
   $datasource = CloudServersDNS::Datasource.new(configuration)
 
   def startup
+    puts "Working Directory: #{working_directory}"
+    puts "Log Directory: #{log_directory}"
+    puts "Runtime Directory: #{runtime_directory}"
     RubyDNS::run_server(listen: self.class.configuration.listen) do
       match(//, [IN::A, IN::CNAME]) do |transaction|
         if response = $datasource.lookup(transaction.question)
