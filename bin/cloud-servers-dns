@@ -18,6 +18,17 @@ class CloudServersDNS::Server < Process::Daemon
     @@configuration
   end
 
+  def working_directory
+    configuration.working_directory || super
+  end
+
+  def log_directory
+    configuration.log_direcotry || super
+  end
+
+  def runtime_directory
+    configuration.runtime_directory || super
+  end
 
   $R = Resolv::DNS.new
   Name = Resolv::DNS::Name
