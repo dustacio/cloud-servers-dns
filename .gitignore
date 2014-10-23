@@ -1,5 +1,5 @@
 # ignore config files
 config/*.yml
 run/*
-log/*.yml
+log/*.log
 pkg
